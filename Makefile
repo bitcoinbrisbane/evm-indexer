@@ -14,7 +14,7 @@ setup:
 	sh scripts/setup.sh
 
 build:
-	go build -o validationcloud
+	go build -o evm-indexer
 
 run: build
-	./validationcloud
+	./evm-indexer
